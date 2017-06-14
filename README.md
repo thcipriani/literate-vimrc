@@ -29,5 +29,5 @@ actual `~/.vimrc`.
 ```
 echo "~~~" > ~/.vimrc.md
 cat ~/.vimrc >> ~/.vimrc.md
-echo 'runtime! plugin/literatevimrc.vim' > ~/.vimrc
+echo 'execute literatevim#load("~/.vimrc.md")' > ~/.vimrc
 ```
