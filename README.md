@@ -1,7 +1,7 @@
 # Literate Vimrc
 
 "Literate" Vimrc is more than a bit of a misnomer. It, unlike Donald Knuth's
-vision of Literate Programming, does not support a loosly coupled web of macros
+vision of Literate Programming, does not support a loosely coupled web of macros
 -- instead it just lets you write a file in Markdown that has codeblocks (as
 defined by [v0.27 of the CommonMark spec](http://spec.commonmark.org/0.27/))
 containing Vimscript as your `~/.vimrc` file.
