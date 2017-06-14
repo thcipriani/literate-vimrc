@@ -1,0 +1,33 @@
+*literatevimrc.txt*  Plugin for creating "literate" vimrc files
+
+Author:  Tyler Cipriani <tyler@tylercipriani.com>
+License: GPL v.3
+
+This plugin is only available if 'compatible' is not set.
+
+INTRODUCTION                                    *literatevimrc*
+
+I have tons of comments in my ~/.vimrc file. I try to leave a lot of
+comments because everything in my Vim configuration is hard-won
+knowledge. My ~/.vimrc is accumulated knowledge from the day I first
+opened the editor and couldn't figure out how to leave until now, many
+years later, when I open my editor and don't have any reason to leave.
+I have tweaked, cajoled, and tamed this beast called Vim. I think a lot
+of folks have configuration kind of like that -- it's knowledge that is
+locked-away, not privately or purposefully, just badly-documented and
+ubiquitous. This is a problem.
+
+So I made a thing.
+
+It lets you keep your configuration as a Markdown file with the actual
+configuration inside of codeblocks.
+
+INSTALL                    *iteratevimrc-install* *literatevimrc-setup*
+
+Install is fairly simple. You just move your current vim configuration
+file to a different spot, format it as a markdown file, and source it
+from your "real" vimrc file via:
+
+    runtime! plugin/literatevimrc.vim
+
+This can be the only content inside your vimrc -- it is in mine.
