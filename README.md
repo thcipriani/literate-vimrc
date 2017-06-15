@@ -12,7 +12,7 @@ The intent of this plugin is to create a literate version of your `~/.vimrc`
 file. As such, all that needs to be done is to copy the `autoload/literatevimrc.vim` file
 into your `~/.vim/autoload` directory, move your current `~/.vimrc` over to `~/.vimrc.md`
 (ensuring that the contents of the file are in a Markdown fenced codeblock) and
-add the line `runtime! plugin/literatevimrc.vim` to your, now empty, `~/.vimrc`.
+add the line `execute literatevimrc#load("~/.vimrc.md")` to your, now empty, `~/.vimrc`.
 
 ### Step by step install
 
