@@ -29,5 +29,5 @@ actual `~/.vimrc`.
 ```
 echo "~~~" > ~/.vimrc.md
 cat ~/.vimrc >> ~/.vimrc.md
-echo 'execute literatevim#load("~/.vimrc.md")' > ~/.vimrc
+echo 'execute literatevimrc#load("~/.vimrc.md")' > ~/.vimrc
 ```

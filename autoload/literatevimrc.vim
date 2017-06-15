@@ -6,13 +6,13 @@
 "
 " Maintainer: Tyler Cipriani <tyler@tylercipriani.com>
 " License: Copyright (c) Tyler Cipriani - GPL v.3
-" Version: 0.0.1
+" Version: 0.0.2
 
-if exists("g:loaded_literatevim") || &cp
+if exists("g:loaded_literatevimrc") || &cp
     finish
 endif
 
-let g:loaded_literatevim = 1
+let g:loaded_literatevimrc = 1
 
 " Does a line look like it starts a fenced codeblock?
 function! s:starts_codeblock(line) abort
@@ -78,7 +78,7 @@ endfunction
 
 
 " Entrypoint. Accepts a single path and pases it off for parsing.
-function! literatevim#load(path) abort
+function! literatevimrc#load(path) abort
     let path = expand(a:path)
     if getftime(path) < 1
         return

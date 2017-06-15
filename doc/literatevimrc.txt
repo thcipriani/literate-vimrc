@@ -28,6 +28,6 @@ Install is fairly simple. You just move your current vim configuration
 file to a different spot, format it as a markdown file, and source it
 from your "real" vimrc file via:
 
-    execute literatevim#load("~/.vimrc.md")
+    execute literatevimrc#load("~/.vimrc.md")
 
 This can be the only content inside your vimrc -- it is in mine.
